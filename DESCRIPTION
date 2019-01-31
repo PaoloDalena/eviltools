@@ -1,0 +1,16 @@
+Package: eviltools
+Title: Useless Tools for Driving Someone Crazy
+Version: 0.0.0.9000
+Authors@R: 
+    person("Paolo", "Dalena", role = c("aut", "cre"), email = "paolodalena97@gmail.com")
+Description: A very dangerous package that overwrites base functions like '/' or 'sum()'
+    in order to drive the user crazy. It can destroy your mental health and (maybe) your work. DON'T USE IT!
+License: CC0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Date: 2019-01-31
+Imports:
+    graphics
+Suggests: 
+    testthat
