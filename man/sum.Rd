@@ -22,6 +22,6 @@ The sum of \code{x} and \code{y}, or maybe something stupid.
 \code{sum} should return the sum of all the values present in its arguments, but will it work?
 }
 \examples{
-sum(24,90:261,-321,0.29)
+sum(24,90:261)
 sum("ssaym","backwards")
 }

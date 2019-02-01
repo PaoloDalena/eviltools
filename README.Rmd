@@ -1,0 +1,59 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+##eviltools: an R package for driving someone crazy. <img src="man/figures/logo_edited.png" align="right" width="200" />
+
+
+
+## Overview
+A very dangerous package that overwrites base functions like '/' or 'sum()' in order to drive the user crazy. It can destroy your mental health and (maybe) your work. **DON'T USE IT!**
+
+
+## Installation
+
+You can install the development version from [GitHub](https://github.com/) with the following procedure:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("PaoloDalena/eviltools")
+```
+
+## Example
+
+What is special about using `eviltools` instead of just `base` functions?
+
+```{r mean}
+library( eviltools )
+x <- 1:21
+mean( x , type = 3 )
+```
+
+You can also give a love message, for example:
+
+```{r /}
+x <- sample(100, 1)
+y <- sample(100, 1)
+x / y
+```
+
+## Feature request
+If you need some more features, please open an issue on
+[github](https://github.com/PaoloDalena/eviltools/issues).
+
+
+## Bug reports
+If you encounter a bug, please file a
+[reprex](https://github.com/tidyverse/reprex)
+(minimal reproducible example) on
+[github](https://github.com/PaoloDalena/eviltools/issues).

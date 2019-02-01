@@ -1,5 +1,5 @@
-test_that("sum gives an error when n is not logical",{
-  expect_error(sum( n = "" ))
+test_that("sum gives a warning when n is not logical",{
+  expect_warning(sum( n = "" ))
 })
 test_that("sum gives a message when n = F",{
   expect_message(sum(n = F),"idea")

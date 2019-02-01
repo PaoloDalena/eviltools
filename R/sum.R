@@ -7,7 +7,7 @@
 #' @param ... Whatever else you want, my friend!
 #' @return The sum of \code{x} and \code{y}, or maybe something stupid.
 #' @examples
-#' sum(24,90:261,-321,0.29)
+#' sum(24,90:261)
 #' sum("ssaym","backwards")
 #' @aliases somma
 #' @export
@@ -21,6 +21,6 @@ sum <- function (x,
   else if(n == F) {
     message("Good idea!")
   } else {
-    stop ("Just choose between TRUE or FALSE!")
+    warning ("Of course, nothing happened. Just choose between TRUE or FALSE!")
   }
 }

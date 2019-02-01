@@ -3,3 +3,7 @@
 export("/")
 export(mean)
 export(sum)
+importFrom(grDevices,rainbow)
+importFrom(graphics,grid)
+importFrom(graphics,plot)
+importFrom(graphics,points)

@@ -4,8 +4,7 @@
 \alias{mean}
 \title{Generic mean (?)}
 \usage{
-mean(x,
-  type = as.numeric(readline("Which type of mean do you want? Enter a number from 1 to 5: \\n\\n        1: Arithmetic Mean\\n\\n        2: Weighted Mean\\n\\n        3: Geometric Mean\\n\\n        4: Armonic Mean\\n\\n        5: Arithmetic-Geometric Mean\\n")))
+mean (x, type)
 }
 \arguments{
 \item{x}{An \code{R} object. Currently there are methods for numeric/logical vectors and date, date-time and time interval objects.}
@@ -21,5 +20,5 @@ Generic interactive function for the arithmetic, weighted, geometric, armonic or
 }
 \examples{
 x <- c(13:20,-31.2,4321,-24)
-mean (x) #then you will have to type in which mean do you need.
+mean (x, type = 1 ) #don't input the "type", R will ask you what you want anyways.
 }

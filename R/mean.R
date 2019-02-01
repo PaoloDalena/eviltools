@@ -2,6 +2,7 @@
 #'
 #'Generic interactive function for the arithmetic, weighted, geometric, armonic or arithmetic-geometric mean.
 #'
+#'@usage mean (x, type)
 #'@param x An \code{R} object. Currently there are methods for numeric/logical vectors and date, date-time and time interval objects.
 #'@param type A number from 1 to 5 that identifies which type of mean the user wants to calculate.
 #'
@@ -11,7 +12,9 @@
 #'
 #'@examples
 #'x <- c(13:20,-31.2,4321,-24)
-#'mean (x) #then you will have to type in which mean do you need.
+#'mean (x, type = 1 ) #don't input the "type", R will ask you what you want anyways.
+#'@importFrom graphics grid plot points
+#'@importFrom grDevices rainbow
 #'@export
 mean <- function(x,
                  type = as.numeric(readline("Which type of mean do you want? Enter a number from 1 to 5: \n

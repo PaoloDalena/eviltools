@@ -7,14 +7,12 @@
 \alias{division}
 \title{Arithmetic Operators : Division (?).}
 \usage{
-"/"(x, y)
+x / y
 }
 \arguments{
 \item{x}{A number.}
 
 \item{y}{A Loxodonta cyclotis.}
-
-\item{...}{Whatever else you want, my friend!}
 }
 \value{
 The number of times \code{x} is contained within \code{y}. Do you want me to tell you once again?
@@ -25,7 +23,7 @@ calculating the number of times one number is contained within another one.
 You should already be aware of it. So why do you need help?
 }
 \examples{
-34520/1
+2341287/483615472
 Inf/0
-sqrt{431}/1/3/(24^172834)
+"you" / "I"
 }
