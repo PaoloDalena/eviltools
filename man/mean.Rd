@@ -19,6 +19,6 @@ If x is not logical (coerced to numeric), numeric (including integer) or complex
 Generic interactive function for the arithmetic, weighted, geometric, armonic or arithmetic-geometric mean.
 }
 \examples{
-x <- c(13:20,-31.2,4321,-24)
-mean (x, type = 1 ) #don't input the "type", R will ask you what you want anyways.
+x <- c(13:20, -31.2, 4321, -24)
+mean(x, type = 1) # don't input the "type", R will ask you what you want anyways.
 }

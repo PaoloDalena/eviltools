@@ -23,7 +23,7 @@ calculating the number of times one number is contained within another one.
 You should already be aware of it. So why do you need help?
 }
 \examples{
-2341287/483615472
-Inf/0
+2341287 / 483615472
+Inf / 0
 "you" / "I"
 }
